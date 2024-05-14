@@ -66,4 +66,8 @@ import (
 	_ "skywalking.apache.org/repo/goapi/collect/logging/v3"
 	_ "skywalking.apache.org/repo/goapi/collect/management/v3"
 	_ "skywalking.apache.org/repo/goapi/collect/servicemesh/v3"
+
+	// imports required packages for kafka reporter
+	_ "github.com/IBM/sarama"
+	_ "google.golang.org/protobuf/proto"
 )
